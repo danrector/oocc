@@ -2,11 +2,23 @@
   text-align: center;
 }
 
+body {
+  /* background-color: #00FFFF; */
+}
+
 h1 {
   text-align: center;
+  /* background-color: #FF00FF; */
 }
 
 .comic {
   height: 30vh;
-  padding: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.comicContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
