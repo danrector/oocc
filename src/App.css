@@ -2,15 +2,6 @@
   text-align: center;
 }
 
-body {
-  /* background-color: #00FFFF; */
-}
-
-h1 {
-  text-align: center;
-  /* background-color: #FF00FF; */
-}
-
 .comic {
   height: 30vh;
   padding-top: 20px;
@@ -21,4 +12,19 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.header {
+
+}
+
+body {
+  background-image: url("./OOCC_background_image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
 }

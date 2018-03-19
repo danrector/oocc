@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Lightbox from 'react-image-lightbox';
 
+
 const images = [
   '//i.imgur.com/Ohuu7bI.jpg?1',
   '//i.imgur.com/dZoFSAo.jpg?1',
@@ -29,7 +30,10 @@ export default class LightboxExample extends Component {
 
     return (
       <div>
-        <h1>OUT OF CONTEXT COMICS</h1>
+
+        <div className='header'>
+          <h1>OUT OF CONTEXT COMICS</h1>
+        </div>
 
         <div className='comicContainer'>
           <img className='comic' src='http://i.imgur.com/Ohuu7bI.jpg?1'
