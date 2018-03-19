@@ -12,10 +12,17 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding-top: 20vh;
 }
 
 .header {
-
+  background:black;
+  color: white;
+  height:80px;
+  width:100%;
+  position:fixed;
+  top:0;
+  left:0;
 }
 
 body {
