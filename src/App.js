@@ -62,6 +62,13 @@ export default class LightboxExample extends Component {
             alt='comic'></img>
         </div>
 
+        <div className='footer'>
+          <p>
+             If you would like to submit your own out of context comic,
+             send me an email <a href="mailto:rector.danielk@gmail.com?Subject=Context%20Comics">here</a>.
+          </p>
+        </div>
+
 
         {isOpen && (
           <Lightbox
